@@ -1,0 +1,300 @@
+/* GENERAL */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Nom du site */
+h1 {
+    color: #B7BDF0;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #5C32ED;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Titre d'une page du site */
+h2 {
+    color: white;
+    font-size: 22px;
+    background-color: #9932ED;
+    padding: 4px 0 4px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Corps du site */
+p {
+    font-size: 16px;
+    padding: 4px 14px 4px 14px;
+}
+
+/* HEADER */
+/* Logo du site + Titre du site */
+header {
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5C32ED;
+    border-radius: 10px;
+}
+
+header ul {
+    background-color: #B7BDF0;
+    padding: 5px;
+}
+
+header li {
+    list-style: none;
+    background-color: #B7BDF0;
+    padding: 5px 11.30px;
+}
+
+/* Le menu général : Acceuil, Thématique, Images, Langues et les drapeaux */
+.banniere {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 45px;
+}
+
+.banniere img {
+    width: 100px;
+    height: auto;
+}
+
+.header-menu {
+    display: flex;
+    gap: 275px;
+
+}
+
+/* Première partie du menu : Acceuil, Thématique Images */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.menu a {
+    color: #5C32ED;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Deuxième partie du menu : Langues et les deux drapeaux */
+.choix-langues {
+    color: #5C32ED;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.choix-langues a {
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.choix-langues img {
+    width: 30px;
+    height: 35px;
+}
+
+/* MAIN */
+main {
+    background-color: #B7BDF0;
+    border-radius: 10px;
+}
+
+/* Text and pictures*/
+.contenu {
+    display: flex;
+}
+
+/* First column of text */
+.contenu .description1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 5px 4px 10px;
+    gap: 10px;
+}
+
+/* Second column of text*/
+.contenu .description2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 5px 4px 10px;
+    gap: 20px;
+}
+
+.contenu .description1 p {
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    padding: 0px 5px 4px 10px;
+}
+
+.contenu .description2 p {
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    padding: 0px 5px 5px 5px;
+}
+
+/* First column of pictures */
+.contenu .bloc1_images {
+    display: flex;
+    flex-direction: column;
+    color: #9932ED;
+    font-style: italic;
+    text-align: center;
+    font-size: 8px;
+    gap: 35px;
+}
+
+/* Second column of pictures */
+.contenu .bloc2_images {
+    display: flex;
+    flex-direction: column;
+    color: #9932ED;
+    font-style: italic;
+    text-align: center;
+    font-size: 8px;
+    gap: 35px;
+}
+
+.contenu .bloc1_images img {
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.contenu .bloc2_images img {
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+/* ASIDE : Left main box */
+/* ASIDE : Left main box */
+.contenu .aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #5C30E6;
+    padding: 3px 10px 3px 0;
+}
+
+.contenu .aside p {
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Absolute links */
+.liens-absolus li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0 0 4px 0;
+}
+
+.liens-absolus a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #B7BDF0;
+}
+
+.liens-absolus a:hover {
+    color: turquoise;
+}
+
+/* Relative links */
+.liens-relatifs li {
+    list-style: none;
+    padding: 0 0 4px 0;
+}
+
+.liens-relatifs a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #B7BDF0;
+}
+
+.liens-relatifs a:hover {
+    color: turquoise
+}
+
+/* FOOTER */
+footer {
+    background-color: #5C32ED;
+    width: 960px;
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+footer p {
+    color: #B7BDF0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 14px 4px 14px;
+}
+
+.footer-menu a:hover {
+    color: white;
+}
+
+.menu-colonne {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-colonne a {
+    color: #B7BDF0;
+    text-decoration: none;
+}
